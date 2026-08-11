@@ -1,0 +1,6 @@
+{
+  "name": "Interior Inside Portfolio",
+  "description": "Premium One Page Portfolio Website for Interior Inside - Wallpaper & Interior Decoration",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

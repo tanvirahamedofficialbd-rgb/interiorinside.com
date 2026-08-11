@@ -1,0 +1,55 @@
+{
+  "__description__": "Database schema for Interior Inside website and admin panel.",
+  "collections": {
+    "site_settings": {
+      "__description__": "Global website settings and configuration.",
+      "__document_id__": "The setting document ID, usually 'main'.",
+      "fields": {
+        "name": { "type": "string" },
+        "tagline": { "type": "string" },
+        "description": { "type": "string" },
+        "phone": { "type": "string" },
+        "whatsapp": { "type": "string" },
+        "messenger": { "type": "string" },
+        "email": { "type": "string" },
+        "facebook": { "type": "string" },
+        "instagram": { "type": "string" },
+        "address": { "type": "string" },
+        "aboutText": { "type": "string" },
+        "heroImage": { "type": "string" }
+      }
+    },
+    "services": {
+      "__description__": "Services offered by the company.",
+      "__document_id__": "Auto-generated document ID.",
+      "fields": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "icon": { "type": "string" }
+      }
+    },
+    "projects": {
+      "__description__": "Portfolio projects.",
+      "__document_id__": "Auto-generated document ID.",
+      "fields": {
+        "title": { "type": "string" },
+        "category": { "type": "string" },
+        "image": { "type": "string" },
+        "liveLink": { "type": "string", "optional": true },
+        "detailsLink": { "type": "string", "optional": true }
+      }
+    },
+    "messages": {
+      "__description__": "Contact form submissions.",
+      "__document_id__": "Auto-generated document ID.",
+      "fields": {
+        "name": { "type": "string" },
+        "phone": { "type": "string" },
+        "email": { "type": "string", "optional": true },
+        "message": { "type": "string" },
+        "createdAt": { "type": "timestamp" },
+        "status": { "type": "string" }
+      }
+    }
+  }
+}
